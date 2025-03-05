@@ -20,13 +20,16 @@ Kết nối:
 
 ```bash
 pip3 install esphome
+
 git clone https://github.com/TThanhXuan/solarspeak
+
 cd solarspeak
 # Create a secrets.yaml containing some setup specific secrets
 cat > secrets.yaml <<EOF
 wifi_ssid: MY_WIFI_SSID
 wifi_password: MY_WIFI_PASSWORD
 EOF
+
 esphome run solarspeak.yaml
 
 ```
